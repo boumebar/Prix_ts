@@ -18,7 +18,7 @@ h1{
     font-size: 1.7em;
 }
 .logo img {
-  width: 100px; /* Ajustez la largeur selon vos besoins */
+  width: 70px; /* Ajustez la largeur selon vos besoins */
   height: auto; /* La hauteur sera ajustée proportionnellement */
   margin-right: 10px; /* Ajoute un espace entre le logo et le titre */
 }
