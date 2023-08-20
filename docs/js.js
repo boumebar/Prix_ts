@@ -75,6 +75,12 @@ $(document).ready(function () {
                 case 38:
                     prix_minute = 0.2709
                     break;
+                case 310:
+                    prix_minute = 0.2790
+                    break;
+                case 311:
+                    prix_minute = 0.2832
+                    break;
                 case 42:
                     prix_minute = 0.2537
                     break;
@@ -96,6 +102,12 @@ $(document).ready(function () {
                 case 48:
                     prix_minute = 0.2790
                     break;
+                case 410:
+                    prix_minute = 0.2874
+                    break;  
+                case 411:
+                    prix_minute = 0.2917
+                    break;      
                 case 52:
                     prix_minute = 0.2612
                     break;
@@ -117,6 +129,12 @@ $(document).ready(function () {
                 case 58:
                     prix_minute = 0.2873
                     break;
+                case 510:
+                    prix_minute = 0.2960
+                    break;  
+                case 511:
+                    prix_minute = 0.3003
+                    break; 
                 case 63:
                     prix_minute = 0.2712
                     break;
@@ -135,6 +153,12 @@ $(document).ready(function () {
                 case 68:
                     prix_minute = 0.2938
                     break;
+                case 610:
+                    prix_minute = 0.3028
+                    break;  
+                case 611:
+                    prix_minute = 0.3073
+                    break; 
                 case 74:
                     prix_minute = 0.2821
                     break;
@@ -150,6 +174,12 @@ $(document).ready(function () {
                 case 78:
                     prix_minute = 0.3008
                     break;
+                case 710:
+                    prix_minute = 0.3103
+                    break;  
+                case 711:
+                    prix_minute = 0.3150
+                    break; 
                 case 84:
                     prix_minute = 0.2919
                     break;
@@ -165,6 +195,12 @@ $(document).ready(function () {
                 case 88:
                     prix_minute = 0.3113
                     break;
+                case 810:
+                    prix_minute = 0.3211
+                    break;  
+                case 811:
+                    prix_minute = 0.3259
+                    break; 
                 default:
                     var error = true;
                     console.log(`Désole BC${bc} avec echelon ${echelon}`);
@@ -234,6 +270,12 @@ $(document).ready(function () {
                 case 38:
                     prix_minute = 0.3104
                     break;
+                case 310:
+                    prix_minute = 0.3186
+                    break;  
+                case 311:
+                    prix_minute = 0.3227
+                    break; 
                 case 42:
                     prix_minute = 0.2932
                     break;
@@ -255,6 +297,12 @@ $(document).ready(function () {
                 case 48:
                     prix_minute = 0.3186
                     break;
+                case 410:
+                    prix_minute = 0.3270
+                    break;  
+                case 411:
+                    prix_minute = 0.3312
+                    break; 
                 case 52:
                     prix_minute = 0.3007
                     break;
@@ -276,6 +324,12 @@ $(document).ready(function () {
                 case 58:
                     prix_minute = 0.3268
                     break;
+                case 510:
+                    prix_minute = 0.3355
+                    break;  
+                case 511:
+                    prix_minute = 0.3398
+                    break; 
                 case 63:
                     prix_minute = 0.3107
                     break;
@@ -283,47 +337,65 @@ $(document).ready(function () {
                     prix_minute = 0.3152
                     break;
                 case 65:
-                    prix_minute = 0.3
+                    prix_minute = 0.3198
                     break;
                 case 66:
-                    prix_minute = 0.3255
+                    prix_minute = 0.3242
                     break;
                 case 67:
-                    prix_minute = 0.3308
-                    break;
-                case 68:
-                    prix_minute = 0.3359
-                    break;
-                case 74:
-                    prix_minute = 0.3234
-                    break;
-                case 75:
                     prix_minute = 0.3288
                     break;
+                case 68:
+                    prix_minute = 0.3333
+                    break;
+                case 610:
+                    prix_minute = 0.3423
+                    break;  
+                case 611:
+                    prix_minute = 0.3468
+                    break; 
+                case 74:
+                    prix_minute = 0.3216
+                    break;
+                case 75:
+                    prix_minute = 0.3263
+                    break;
                 case 76:
-                    prix_minute = 0.3342
+                    prix_minute = 0.3310
                     break;
                 case 77:
-                    prix_minute = 0.3396
+                    prix_minute = 0.3357
                     break;
                 case 78:
-                    prix_minute = 0.3449
+                    prix_minute = 0.3404
                     break;
+                case 710:
+                    prix_minute = 0.3498
+                    break;  
+                case 711:
+                    prix_minute = 0.3545
+                    break; 
                 case 84:
-                    prix_minute = 0.3354
+                    prix_minute = 0.3314
                     break;
                 case 85:
-                    prix_minute = 0.3409
+                    prix_minute = 0.3362
                     break;
                 case 86:
-                    prix_minute = 0.3465
+                    prix_minute = 0.3411
                     break;
                 case 87:
-                    prix_minute = 0.3521
+                    prix_minute = 0.3460
                     break;
                 case 88:
-                    prix_minute = 0.3577
+                    prix_minute = 0.3508
                     break;
+                case 810:
+                    prix_minute = 0.3606
+                    break;  
+                case 811:
+                    prix_minute = 0.3655
+                    break; 
                 default:
                     var error = true;
                     console.log(`Désole BC${bc} avec echelon ${echelon}`);
