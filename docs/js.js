@@ -339,8 +339,7 @@ $(document).ready(function () {
 
         }
 
-        calcul = calcul_ts(minutes,prix_minute)
-        console.log(minutes,prix_minute,calcul)
+    
 
         if (isNaN(minutes)) error = true
 
