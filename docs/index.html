@@ -11,6 +11,9 @@
 
 <body>
   <div class="container">
+    <div class="logo">
+      <img src="../LOGO-ROND-72.png" alt="Logo de votre application">
+    </div>
     <h1>Calculer votre TS</h1>
     <div class="form-group row">
       <label for="minute" class="col-sm-4 col-form-label">
@@ -45,10 +48,16 @@
         <option>8</option>
       </select>
     </div>
+    <div class="form-group row">
+      <label for="compensation" class="col-sm-4 col-form-label">Compensation</label>
+      <select class="form-control form-control-sm col-sm-8" name="compensation" id="compensation">
+        <option class="transparent">OUI</option>
+        <option>NON</option>
+      </select>
+    </div>
     <div class="message">
       <p id="resultat" class="hidden alert alert-success" role="alert"></p>
       <p id="error" class="hidden alert alert-danger" role="alert"></p>
-
     </div>
     <div class="form-group row">
       <a href="#" id="button_ts" class="bouton1 col-sm-6">
@@ -59,8 +68,8 @@
         Valider
       </a>
     </div>
-
   </div>
+
 
 
 
